@@ -1,6 +1,6 @@
 # Anti-Narcotics Reporting & Awareness Portal
 
-A full-stack web application that allows users to report narcotics-related activities anonymously and helps authorities take action.
+A full-stack web application built with React.js and Spring Boot that allows users to report narcotics-related activities anonymously.
 
 ## Tech Stack
 - Frontend: React.js, Vite, HTML, CSS
