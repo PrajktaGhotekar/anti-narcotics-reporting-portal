@@ -1,0 +1,169 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(245, 240, 240, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+  border-color: #646cff;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+
+  a:hover {
+    color: #747bff;
+  }
+
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+
+
+body {
+  background: linear-gradient(135deg, #f5f9ff, #eef3ff);
+}
+
+
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.user-dashboard {
+  min-height: 100vh;
+  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/008/820/635/small/background-of-medicinal-chemistry-drug-structure-capsule-pill-in-blister-pack-drug-bottle-and-ekg-or-ecg-electrocardiogram-graph-report-paper-background-for-healthcare-and-heart-check-up-concept-free-photo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  animation: fadeUp 0.9s ease-out;
+  max-width: 900px;
+  width: 100%;
+}
+
+
+.col-md-8 .card {
+  background-image:
+    linear-gradient(
+      rgba(255, 255, 255, 0.78),
+      rgba(255, 255, 255, 0.78)
+    ),
+    url("https://t3.ftcdn.net/jpg/01/96/90/36/360_F_196903666_K8w5RzW81Ih0g7KZyWYEDs2t5E07MlcX.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  border-radius: 1.5rem;
+}
+
+
+
+.trust-badges span {
+  font-size: 0.95rem;
+  color: #444;
+}
+
+
+.slogan {
+  color: #ffffff !important;
+  font-size: 3rem !important;
+  font-weight: 900 !important;
+
+  text-align: center;
+  margin-bottom: 2rem;
+
+  font-family: "Playfair Display", "Georgia", serif;
+  letter-spacing: 1.5px;
+
+  text-shadow:
+    0 4px 15px rgba(0, 0, 0, 0.9);
+
+  position: relative;
+  z-index: 10;
+
+  animation: fadeUp 1s ease-out;
+
+
+  
+}

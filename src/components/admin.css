@@ -1,0 +1,139 @@
+/* ===== COMMON ADMIN STYLES ===== */
+.admin-page {
+  background-color: #f4f7fb;
+  min-height: 100vh;
+  padding-bottom: 40px;
+}
+
+/* ===== TABLE FONT SIZE FIX ===== */
+.admin-table th,
+.admin-table td {
+  font-size: 15px;
+}
+
+/* ===== CARD LOOK ===== */
+.card {
+  border-radius: 10px;
+}
+
+h3 {
+  font-weight: 700;
+}
+
+/* ===== BUTTON SPACING ===== */
+.btn {
+  font-size: 14px;
+}
+
+/* ===== ADMIN LOGIN PAGE ===== */
+
+.admin-login-page {
+  min-height: 100vh;
+  background: linear-gradient(
+    135deg,
+    #0d6efd,
+    #0b5ed7,
+    #084298
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.admin-login-card {
+  background: #ffffff;
+ width: 480px;          /* was ~420px */
+  padding: 45px 40px;    /* more breathing space */
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.admin-login-icon {
+  width: 60px;
+  height: 60px;
+  background: #0d6efd;
+  color: #fff;
+  font-size: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.admin-login-page {
+  min-height: 100vh;
+  background:
+    /* linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), */ 
+    url("https://c7.alamy.com/comp/2C12KCP/vector-illustration-of-international-day-against-drug-abuse-and-trafficking-observed-on-26th-june-2C12KCP.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+   justify-content: flex-start;
+  padding-left: 17%;
+
+  .password-input-wrapper {
+  position: relative;
+}
+
+.password-input-wrapper input {
+  width: 100%;
+  padding-right: 45px;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 1.1rem;
+  user-select: none;
+}
+
+
+/* Admin layout full height */
+.admin-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Push footer to bottom */
+.admin-content {
+  flex: 1;
+}
+
+/* ADMIN DASHBOARD BACKGROUND */
+.admin-dashboard {
+  min-height: 100vh;
+  background-image: url("https://img.freepik.com/premium-vector/abstract-technology-background_26760-16.jpg?semt=ais_user_personalization&w=740&q=80"); /* put image in public folder */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* RESPONSIBILITY CARD */
+.admin-responsibility-card {
+  background: rgba(255, 255, 255, 0.5);
+  border-left: 6px solid #0d6efd;
+}
+
+/* PUSH FOOTER DOWN */
+body, #root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+}
+
+
+}
